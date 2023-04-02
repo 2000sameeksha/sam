@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+    int i,n,c=0;
+    printf("Random numbers are\n");
+    for(i=0;i<6;i++)
+    {
+        n=rand()%100+i;
+        printf("%d\n",n);
+    }
+    if(n==6)
+
+        c++;
+        printf("%d\n",c);
+
+
+    return 0;
+
+}

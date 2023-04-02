@@ -1,0 +1,16 @@
+
+#include<stdio.h>
+# define pi 3.14
+int volume(int radius)
+{
+    int vol=4/3*pi*radius*radius*radius;
+    printf("Volume of sphere is %d\n",vol);
+    return 0;
+}
+int main()
+{
+    int vol,radius;
+    printf("Enter the radius \n");
+    scanf("%d",&radius);
+    volume(radius);
+}

@@ -1,0 +1,7 @@
+# include<stdio.h>
+int main()
+{
+
+    printf("Mitochondria are called power houses of the cell");
+    return 0;
+}

@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+    int side,sum;
+    printf("Enter the number of sides\n");
+    scanf("%d",&side);
+    sum=(side-2)*180;
+    if(side<3)
+    {
+
+printf("0");
+    }
+    else
+    {
+      printf("Sum of internal angle is %d\n",sum)  ;
+
+    }
+    return 0;
+}

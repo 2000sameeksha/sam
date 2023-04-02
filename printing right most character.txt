@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    char str1[100],right;
+    int len;
+    printf("enter a string:\n");
+    scanf("%s",str1);
+    len=strlen(str1);
+    right=str1[len-1];
+    printf("%c\n",right);
+    return 0;
+}

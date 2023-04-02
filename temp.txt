@@ -1,0 +1,21 @@
+
+#include<stdio.h>
+int main()
+{
+    int temp,n;
+    printf("Enter a temperature\n");
+    scanf("%d",&n);
+    for(temp=0;temp<=n;temp++)
+    {
+        if(temp==25)
+        {
+            printf("on");
+            temp=temp-2;
+        }
+    else if(temp==35)
+    {
+        printf("Of");
+    }
+    }
+    return 0;
+}

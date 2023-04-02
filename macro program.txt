@@ -1,0 +1,17 @@
+# include<stdio.h>
+# define A 2.1
+int main()
+{
+#ifdef A
+{
+    printf("Hi");
+}
+#endif
+#ifndef A
+{
+
+    printf("bye");
+}
+#endif
+return 0;
+}

@@ -1,0 +1,10 @@
+# include<stdio.h>
+int main()
+{
+
+    printf("Red ginger is tall ,upright and herbaceous\n");
+    printf("It grows well in rich soil\n");
+    printf("Red ginger is popular as an ornamental and cut flower\n");
+
+    return 0;
+}

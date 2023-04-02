@@ -1,0 +1,32 @@
+#include<stdio.h>
+int main()
+{
+int mat,sci,eng,kan,his;
+int total,avg;
+printf("Enter marks scored in  Maths\n");
+scanf("%d",&mat);
+printf("Enter marks scored in Science\n");
+scanf("%d",&sci);
+printf("Enter mark scored in  English\n");
+scanf("%d",&eng);
+printf("Enter mark scored in  Kannada\n");
+scanf("%d",&kan);
+printf("Enter mark scored in  History\n");
+scanf("%d",&his);
+total=(mat+sci+eng+kan+his);
+avg=(total/5);
+printf("Total score is %d\n",total);
+printf("Average score is %d\n",avg);
+if(avg>90)
+    printf("Distinction\n");
+else if(avg>60)
+
+ printf("First class\n");
+else if(avg>=35)
+     printf("second  class\n");
+else
+    printf("Fail\n");
+
+
+       return 0;
+}

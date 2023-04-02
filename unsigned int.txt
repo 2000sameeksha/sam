@@ -1,0 +1,9 @@
+# include<stdio.h>
+
+
+int main()
+{
+ unsigned int n=-65535;
+ printf("%hu",n);
+    return 0;
+}

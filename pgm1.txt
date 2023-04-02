@@ -1,13 +1,17 @@
 #include<stdio.h>
-struct employee
-{
-   char name[15] ;
-   int sid;
-};
 int main()
 {
-    struct employee s1={"Rahul",9};
-    printf("%s\n",s1.name);
-    printf("%d\n",s1.sid);
+    int i,j,ctr=1;;
+    for(i=0;i<5;i++)
+    {
+        for(j=0;j<5;j++)
+        {
+            printf("%d",ctr);
+
+
+        }
+         ctr++;
+        printf("\n");
+    }
     return 0;
 }

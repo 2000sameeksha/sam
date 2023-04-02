@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+    int i,min,max,sum=0;
+    printf("Enter the  minimum and maximum value\n");
+    scanf("%d%d",&min,&max);
+    printf("Display the odd numbers between min and max %d %d\n",min,max);
+    for(i=min;i<=max;i++)
+    {
+        if(i%2!=0)
+        {
+            printf("%d",i);
+            sum=sum+i;
+
+        }
+    }
+    printf("Sum of numbers between min and max %d\n",sum);
+    return 0;
+}

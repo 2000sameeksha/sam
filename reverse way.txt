@@ -1,0 +1,9 @@
+# include<stdio.h>
+int main()
+{
+char X,M,L;
+printf("L");
+printf("M");
+printf("X");
+return 0;
+}

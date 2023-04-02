@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+    int n,i,j,k;
+    char str[100];
+    printf("Enter a string\n");
+    scanf("%s",str);
+    n=strlen(str);
+    for(i=0;i<n;i++)
+    {
+        for(j=i+1;str[j]!='\0';j++)
+        {
+            if(str[i]==str[j])
+            {
+              for(k=j;str[k]!='\0';k++)
+              {
+                  str[k]=str[k+1];
+              }
+            }
+        }
+    }
+    printf("After removing duplicate character from string %s\n",str);
+return 0;
+}

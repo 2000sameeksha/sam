@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int num1,res1,res2,res3;
+    printf("Enter the number\n");
+    scanf("%d",&num1);
+    res1=~(num1);
+    res2=num1<<1;
+    res3=num1>>1;
+    printf("Result of negation %d\n",res1);
+    printf("Result of left shift %d\n",res2);
+    printf("Result of right shift %d\n",res3);
+
+    return 0;
+}

@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char str1[100],str2[100];
+    int result;
+    printf("Enter  string\n");
+    scanf("%s",str1);
+    result=strlen(str1);
+
+    printf("Length of  string is %d\n",result);
+
+}

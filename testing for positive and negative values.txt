@@ -1,0 +1,13 @@
+# include<stdio.h>
+
+
+int main()
+{
+ int long a,b;
+ a=abs(-100);
+ printf("Absolute value of a is =%ld\n",a);
+ b=abs(100);
+ printf("Absolute value of a b is =%ld\n",b);
+
+    return 0;
+}

@@ -1,0 +1,17 @@
+# include<stdio.h>
+int main()
+{
+    int p,t,r;
+    int Si;
+  printf("Enter the principal value\n");
+  scanf("%d",&p);
+  printf("Enter the time\n");
+  scanf("%d",&t);
+  printf("Enter rate of interest\n");
+  scanf("%d",&r);
+  Si=(p*t*r)/100;
+  printf("Simple interest is %d\n",Si);
+
+   return 0;
+
+}

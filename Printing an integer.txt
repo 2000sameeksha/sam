@@ -1,0 +1,9 @@
+# include<stdio.h>
+int main()
+{
+
+    int n=45;
+    printf("Integer value %d\n",n);
+    return 0;
+
+}

@@ -1,0 +1,11 @@
+# include<stdio.h>
+int main()
+{
+   const int a=10;
+   a=200;
+   printf("The value of a is %d",a);
+ return 0;
+
+
+
+}

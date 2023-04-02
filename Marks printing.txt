@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+    int mark;
+    int roll no;
+    int per;
+    int phy,chem,maths,social,hindi;
+    char name[20];
+  printf("Enter the name of student\n");
+  scanf("%s",name);
+  printf("Enter the roll number\n");
+  scanf("%d",&roll no);
+  printf("Enter the marks\n");
+  scanf("%d%d%d%d%d",&phy,&chem,&maths,&social,&hindi);
+  total=(phy+chem+maths+social+hindi);
+  per=total/5;
+  printf("Percentage of marks obtained %d\n",per);
+  return 0;
+
+
+}

@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main()
+{
+    int oppo=12000;
+    int mi=20000;
+    int redmi=40000;
+    int vivo=60000;
+    int moto=80000;
+    if(oppo==12000)
+    {
+        printf("oppo");
+    }
+    else if(mi==12000)
+    {
+        printf("Mi");
+    }
+    else if(redmi==12000)
+    {
+        printf("Redmi");
+    }
+    else if(vivo==12000)
+    {
+        printf("vivo");
+    }
+    else if(moto==12000)
+    {
+        printf("Moto");
+    }
+    return 0;
+}

@@ -1,0 +1,23 @@
+#include<stdio.h>
+int lcm(int num1,int num2)
+{
+    static int l=1;
+    if((l%num1==0)&&(l%num2==0)){
+        return l;
+    }
+    else{
+        l++;
+        lcm(num1,num2);
+        return l;
+    }
+}
+int main()
+{
+    int num1,num2;
+    printf("enter two numbers:");
+    scanf("%d%d",&num1,&num2);
+    lcm(num1,num2);
+    printf("lcm of %d and %d is %d",num1,num2,lcm(num1,num2));
+    return 0;
+}
+

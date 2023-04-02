@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+   int num1,num2,num3,num4;
+   printf("Enter the first number\t");
+   scanf("%d",&num1);
+   printf("Enter the second number\t");
+   scanf("%d",&num2);
+   printf("Enter the third number\t");
+   scanf("%d",&num3);
+    printf("Enter the fourth number\t");
+   scanf("%d",&num4);
+    return 0;
+}

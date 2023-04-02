@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+   int num1=2;
+   float num2=5.1;
+   printf("%d",sizeof(num1+num2));
+    return 0;
+}

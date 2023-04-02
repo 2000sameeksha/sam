@@ -1,0 +1,17 @@
+# include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+ int n;
+float a;
+    char ch;
+    long int c=768888;
+    unsigned long int g=69000;
+    printf("%d\n",sizeof(n));
+    printf("%d\n",sizeof(a));
+    printf("%d\n",sizeof(ch));
+    printf("%d\n",sizeof(c));
+    printf("%d\n",sizeof(g));
+    return 0;
+}

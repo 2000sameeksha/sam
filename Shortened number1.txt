@@ -1,0 +1,17 @@
+# include<stdio.h>
+int main()
+{
+   float num;
+ printf("Enter the number \n");
+ scanf("%f",&num);
+ printf("shortened number=%0.1f\n",num);
+ printf("shortened number=%0.2f\n",num);
+ printf("shortened number=%0.3f\n",num);
+ printf("shortened number=%0.4f\n",num);
+ printf("shortened number=%0.5f\n",num);
+
+ return 0;
+
+
+
+}

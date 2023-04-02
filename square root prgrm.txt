@@ -1,0 +1,13 @@
+# include<stdio.h>
+#include<math.h>
+int main()
+{
+
+    int n,a;
+    printf("Enter the value of n\n");
+    scanf("%d",&n);
+    a=sqrt(n);
+    printf("Sqareroot of number is %d\n",a);
+    return 0;
+
+}
