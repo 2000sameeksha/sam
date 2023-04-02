@@ -1,0 +1,33 @@
+#include<stdio.h>
+#include<stdarg.h>
+int avg(int arg_count,...)
+{
+    int i;
+    int sum=0,avg=0,n,a[100];
+
+    va_list ap;
+    va_start(ap,arg_count);
+    avg=va_arg(ap,int);
+    for(i=0;i<n;i++)
+    {
+        sum=sum+a[i];
+    }
+    avg=sum/n;
+    va_end(ap);
+    //return avg;
+}
+int main()
+{
+    int n,a[100],i;
+    printf("Enter the number of elements\n");
+    scanf("%d",&n);
+    printf("Enter the array elements\n");
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    printf("Average value is %d\n",avg);
+
+return 0;
+
+}

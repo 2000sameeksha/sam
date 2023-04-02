@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+void array_demo(int abc[5], int n);
+
+int main()
+{
+    int size=5;
+    int myarray[5]= {2,5,7,99,34};
+    printf("size  is %d", sizeof abc);
+    array_demo(myarray, size);
+
+    return 0;
+}
+
+
+void array_demo(int abc[5], int n)
+{
+    for(int index=0; index<n; index++)
+    {
+        printf("%d ", abc[index]);
+    }
+}

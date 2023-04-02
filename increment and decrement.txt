@@ -1,0 +1,13 @@
+# include<stdio.h>
+int main()
+{
+    int inc1,dec1,num;
+    printf("Enter the number\n");
+    scanf("%d",&num);
+    inc1=num+1;
+    dec1=num-1;
+    printf("Incremented value %d\n",inc1);
+printf("Decremented value %d\n",dec1);
+return 0;
+
+}

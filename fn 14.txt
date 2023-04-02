@@ -1,0 +1,17 @@
+#include<stdio.h>
+int add()
+{
+    int a;
+    float b;
+    char ch;
+    double f;
+    printf("%d",a);
+    printf("%f",b);
+    printf("%c",ch);
+    printf("%f",f);
+    return 0;
+}
+int main()
+{
+    add();
+}

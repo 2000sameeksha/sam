@@ -1,0 +1,25 @@
+# include<stdio.h>
+int main()
+{
+
+int x,y;
+printf("Enter the co ordinate points\n");
+scanf("%d%d",&x,&y);
+if(x>0&&y>0)
+{
+    printf("X and Y belongs to first quadrant\n");
+}
+else if(x<0&&y>0)
+{
+    printf("X and Y belongs to second quadrant\n");
+}
+else if(x<0&&y<0)
+{
+    printf("X and Y belongs to third  quadrant\n");
+}
+else
+{
+    printf("X and Y belongs to fourth  quadrant\n");
+}
+return 0;
+}

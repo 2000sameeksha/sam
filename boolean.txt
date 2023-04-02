@@ -1,0 +1,19 @@
+#include<stdio.h>
+#define a true
+#define b false
+int main()
+{
+    _Bool a;
+    _Bool b;
+    _Bool c;
+    _Bool d;
+    a=true;
+    b=false;
+    c=0;
+    d=1;
+     printf("%d\n",a);
+     printf("%d\n",b);
+     printf("%d\n",c);
+     printf("%d\n",d);
+    return 0;
+}

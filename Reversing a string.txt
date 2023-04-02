@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+
+    char mystr[15]= {'\0'}, revstr[15]= {'\0'};
+     char *p;
+    char *q;
+
+    printf("enter anything\n");
+    scanf("%s", mystr);
+    int len=strlen(mystr);
+
+    p=mystr;
+
+	
+    for(int i=0; i<len; i++)
+    {
+
+       
+        revstr[i]=p[len-i-1];
+
+    }
+printf("Reversed string is %s\n", revstr); 
+
+
+
+    return 0;
+
+}

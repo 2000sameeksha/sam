@@ -1,0 +1,15 @@
+struct employee{
+    int sid;
+    char name[100];
+    int age;
+    int salary;
+};
+int main()
+{
+    struct employee s1={19,"Rahul",30,45000};
+    printf("%d\n",s1.sid);
+    printf("%s\n",s1.name);
+    printf("%d\n",s1.age);
+    printf("%d\n",s1.salary);
+    return 0;
+}

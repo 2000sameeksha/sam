@@ -1,0 +1,17 @@
+# include<stdio.h>
+#include<string.h>
+int main()
+{
+int c=0;
+    char str[10]="Sameeksha";
+    char *ptr;
+    ptr=&str;
+    while(*ptr!='\0')
+    {
+        c++;
+        *ptr++;
+    }
+    printf("Length of string is %d\n",c);
+    return 0;
+
+}

@@ -1,0 +1,26 @@
+# include<stdio.h>
+int main()
+{
+int i,n,a[100];
+int min;
+int*p;
+printf("Enter the number of elements\n");
+scanf("%d",&n);
+printf("Enter the array elements\n");
+for(i=0;i<n;i++)
+{
+    scanf("%d",&a[i]);
+}
+for(i=0;i<n;i++)
+{
+    p=&min;
+   *p=a[0];
+
+
+    if(*p>a[i])
+        *p=a[i];
+}
+printf("Minimum elements is %d\n",*p);
+    return 0;
+
+}

@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    int b=90;
+    float a;
+    a=(float)b+90;
+    printf("Value is %f\n",a);
+return 0;
+
+}

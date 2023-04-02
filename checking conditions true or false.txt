@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main()
+{
+    int a=5,b=5,c=10;
+    if(a&&b>c)
+        printf("Conditions are true\n");
+    else
+        printf("Condition is false\n");
+
+    if(a&&b<c)
+        printf("Conditions are true\n");
+    else
+        printf("Condition is false\n");
+
+        if(a>c||a>b)
+          printf("Conditions are true\n");
+    else
+        printf("Condition is false\n");
+
+             if(a==c||b==c)
+          printf("Conditions are true\n");
+    else
+        printf("Condition is false\n");
+
+
+    return 0;
+}

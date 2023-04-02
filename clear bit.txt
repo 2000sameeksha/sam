@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int n,num,result;
+    printf("Enter the value \n");
+    scanf("%d",&num);
+    printf("Enter the value to be set\n");
+    scanf("%d",&n);
+    result=(num&(~(1<<(n-1))));
+    printf("Set value is %d\n",result);
+    return 0;
+}

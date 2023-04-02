@@ -1,0 +1,20 @@
+# include<stdio.h>
+#include<string.h>
+union  student{
+float id;
+char name[22];
+int age;
+
+};
+int main()
+{
+    union student S1;
+    S1.id=12;
+    strcpy(S1.name,"Rithu");
+    S1.age=34;
+    printf("%f",S1.id);
+   printf("%s",S1.name);
+    printf("%d",S1.age);
+
+    return 0;
+}

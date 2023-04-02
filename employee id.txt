@@ -1,0 +1,21 @@
+# include<stdio.h>
+int main()
+{
+    int id;
+ int hr;
+ int salary;
+ float amount;
+ printf("Enter the employee id\n");
+ scanf("%d",&id);
+ printf("Enter the total worked hours\n");
+ scanf("%d",&hr);
+ printf("Enter the salary\n");
+ scanf("%d",&salary);
+ amount=salary*hr;
+ printf("Employee id=%d\n",id);
+ printf("Total amount %0.2f\n",amount);
+
+
+ return 0;
+
+}

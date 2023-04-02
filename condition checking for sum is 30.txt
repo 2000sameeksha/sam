@@ -1,0 +1,15 @@
+# include<stdio.h>
+#include<conio.h>
+
+int main()
+{
+int a,b,sum=0;
+printf("Enter the values of a and b\n");
+scanf("%d%d",&a,&b);
+sum=a+b;
+if(a=30||b==30||sum==30)
+    printf("true");
+else
+    printf("false");
+return 0;
+}

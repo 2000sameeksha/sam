@@ -1,0 +1,21 @@
+# include<stdio.h>
+int main()
+{
+
+int num1,num2,sum,sub,mul,mod,div;
+printf("Enter the two numbers\n");
+scanf("%d%d",&num1,&num2);
+sum=num1+num2;
+printf("Sum of numbers %d\n",sum);
+sub=num1-num2;
+printf("Remainder of numbers %d\n",sub);
+mul=num1*num2;
+printf("Product of numbers %d\n",mul);
+div=num1/num2;
+printf("Value is %d\n",div);
+mod=num1%num2;
+printf("Modulus value is %d\n",mod);
+
+return 0;
+}
+

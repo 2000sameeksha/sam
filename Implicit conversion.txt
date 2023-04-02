@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    int x=10;
+    char t='A';
+    x=x+t;
+    float z=x+3.0;
+    printf("x=%d,z=%f",x,z);
+return 0;
+
+}

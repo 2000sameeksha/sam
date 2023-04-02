@@ -1,0 +1,24 @@
+# include<stdio.h>
+int main()
+{
+    int i,n;
+    int sum,a[100];
+    float avg=0;
+    float *p;
+    printf("Enter the number of elements\n");
+    scanf("%d",&n);
+    printf("Enter the array elements\n ");
+for(i=0;i<n;i++)
+{
+    scanf("%d",&a[i]);
+}
+for(i=0;i<n;i++)
+{
+
+    p=&sum;
+    *p=*p+a[i];
+}
+printf("Sum of  numbers in an array is %.1f\n",*p);
+    return 0;
+
+}

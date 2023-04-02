@@ -1,0 +1,47 @@
+#include<stdio.h>
+struct student
+{
+    int id;
+    char name[30];
+    int mark;
+} s[3];
+
+int main()
+
+{
+    int h,i;
+    for(int i=0; i<3; i++)
+    {
+        printf("Enter the student id\n");
+        scanf("%d",&s[i].id);
+        printf("Enter the name of student\n");
+        scanf("%s",s[i].name);
+        printf("Enter the marks\n");
+        scanf("%d",&s[i].mark);
+    }
+
+    int highestmark=s[0].mark;
+
+
+    printf("Highest marks obtained\n");
+
+
+    for( int i=0; i<3; i++)
+    {
+
+
+        if(highestmark<s[i].mark)
+        {
+           // highestmark=s[i].mark;
+           int h=i;
+        }
+    }
+
+         printf("Details of student having highest mark\n");
+         printf("Student id=%d\n",s[h].id);
+         printf("Student name=%s\n",s[h].name);
+         printf("Student marks=%d\n",s[h].mark);
+
+
+    return 0;
+}

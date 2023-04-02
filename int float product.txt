@@ -1,0 +1,19 @@
+#include<stdio.h>
+int product(int num1,float num2)
+{
+  int  mul=(int num1)*(float num2);
+  printf("Product of number is %d\n",mul);
+  return 0;
+}
+int main()
+{
+    int num1;
+    float num2;
+    printf("Enter the  first number\n");
+    scanf("%d",&num1);
+    printf("Enter the  second number\n");
+    scanf("%f",&num2);
+
+    product(num1,num2);
+
+}

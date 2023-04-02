@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main()
+{
+    char str1[]="<name>!!";
+    printf("Hello %s",str1);
+    return 0;
+}

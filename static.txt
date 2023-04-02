@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+   static int a;
+  static float b;
+  static char s[20];
+    printf("%d %f %s",a,b,s);
+    return 0;
+}

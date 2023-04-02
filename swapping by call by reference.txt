@@ -1,0 +1,18 @@
+#include<stdio.h>
+int sort(int*a,int *b)
+{
+
+    *a=*a+*b;
+    *b=*a-*b;
+    *a=*a-*b;
+    printf("After swapping a=%d,b=%d",*a,*b);
+}
+int main()
+{
+    int c=10,d=20;
+    sort(&c,&d);
+
+
+    return 0;
+
+}

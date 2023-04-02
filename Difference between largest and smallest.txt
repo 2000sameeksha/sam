@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main()
+{
+
+    int i,a[10],max,min,var,n;
+    printf("Enter the number of elements\n");
+    scanf("%d",&n);
+    printf("Enter the array elements\n");
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    for(i=0;i<n;i++)
+    {
+        min=max=a[0];
+        if(max<a[i])
+            max=a[i];
+        if(min>a[i])
+        min=a[i];
+    }
+    printf("Maximum element in an array is %d\n",max);
+    printf("Minimum element in an array is %d\n",min);
+    var=max-min;
+    printf("Difference between largest and smallest number in an array is %d\n",var);
+    return 0;
+
+}

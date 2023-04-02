@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<conio.h>
+struct student{
+    int id;
+    char name[90];
+    struct Date{
+    int D;
+    int M;
+    int Y;
+}pd,bd;
+};
+int main()
+{
+    struct student a;
+    int r;
+    printf("Enter the roll number:");
+    scanf("%d",&a.id);
+    printf("Enter the name:");
+    scanf("%s",a.name);
+    printf("Enter the present date:");
+    scanf("%d-%d-%d",&a.pd.D,&a.pd.M,&a.pd.Y);
+    printf("Enter the date of birth:");
+    scanf("%d-%d-%d",&a.bd.D,&a.bd.M,&a.bd.Y);
+    r=a.pd.Y-a.bd.Y;
+    printf("Present age is \n");
+
+    printf("%d Year",r);
+    return 0;
+}

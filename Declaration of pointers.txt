@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    int a=5;
+    int *p;
+    p=&a;
+    int b=*p;
+    printf("Address of pointer is %d\n",p);
+    printf("Value  is %d\n",b);
+    return 0;
+}

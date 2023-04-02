@@ -1,0 +1,26 @@
+#include<stdio.h>
+int cal(int a,int b)
+ {
+     char ope;
+    int result=0;
+    switch(ope){
+          case '+':result=a+b;
+          break;
+          case '-':result=a-b;
+          break;
+          case '*':result=a*b;
+          break;
+          case '/':result=a/b;
+          break;
+          default:printf("invalid operator");
+    }
+          printf("the value=%d",result);
+          return 0;
+}
+int main()
+{
+    int a,b;
+    printf("enter two numbers:") ;
+    scanf("%d%d",&a,&b);
+    cal(a,b);
+}

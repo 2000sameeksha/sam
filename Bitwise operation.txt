@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+    int num1,num2;
+    int res1,res2,res3;
+    printf("Enter first number\n");
+    scanf("%d",&num1);
+    printf("Enter second number\n");
+    scanf("%d",&num2);
+    res1=num1&num2;
+    res2=num1|num2;
+    res3=num1^num2;
+    printf("Bitwise and of a and b is %d\n",res1);
+    printf("Bitwise or of a and b is %d\n",res2);
+    printf("Bitwise xor of a and b is %d\n",res3);
+
+    return 0;
+}

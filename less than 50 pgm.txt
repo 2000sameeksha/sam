@@ -1,0 +1,28 @@
+#include<stdio.h>
+struct student{
+int id;
+char name[30];
+int mark;
+}s[5];
+int main()
+{
+    for(int i=0;i<5;i++)
+    {
+        printf("Enter the student id\n");
+        scanf("%d",&s[i].id);
+        printf("Enter the name of student\n");
+        scanf("%s",s[i].name);
+        printf("Enter the marks\n");
+        scanf("%d",&s[i].mark);
+    }
+    printf("Scores less than 50\n");
+    for(int i=0;i<5;i++)
+    {
+        if(s[i].mark<50)
+        {
+            printf("%d\n",s[i].id);
+            printf("%s\n",s[i].name);
+        }
+    }
+    return 0;
+}

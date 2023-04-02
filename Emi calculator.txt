@@ -1,0 +1,18 @@
+
+#include<math.h>
+int main()
+{
+    float p,r,t;
+    float EMI;
+    printf("Enter the principal amount\n");
+    scanf("%f",&p);
+    printf("Enter the rate of interest\n");
+    scanf("%f",&r);
+    printf("Enter the time period\n");
+    scanf("%f",&t);
+    r=r/(12*100);
+    t=t*12;
+    EMI=(p*r*pow(1+r,t))/(pow(1+r,t)-1);
+    printf("EMI per month is %f\n",EMI);
+    return 0;
+}

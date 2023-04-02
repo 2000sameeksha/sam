@@ -1,0 +1,28 @@
+# include<stdio.h>
+
+int main()
+{
+int i,n;
+int sum,a[100];
+float *p;
+float *q;
+float avg=0;
+printf("Enter the number of elements\n");
+scanf("%d",&n);
+printf("Enter the array elements\n");
+for(i=0;i<n;i++)
+{
+    scanf("%d",&a[i]);
+}
+for(i=0;i<n;i++)
+{
+    p=&sum;
+    *p=*p+a[i];
+}
+q=&avg;
+*q=*p/n;
+printf("Sum is %.1f\n",*p);
+printf("Average is %.1f\n",*q);
+    return 0;
+
+}

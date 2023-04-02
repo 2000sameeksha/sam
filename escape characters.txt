@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+
+    printf("\t\ts");
+    printf("\n\t s");
+    printf("\t\ts");
+    printf("\n\t\ts");
+return 0;
+}
+

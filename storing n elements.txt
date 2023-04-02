@@ -1,0 +1,24 @@
+# include<stdio.h>
+#include<string.h>
+int main()
+{
+int a[10];
+int i,n;
+int *p;
+printf("Enter the size of an array\n");
+scanf("%d",&n);
+printf("Enter the array elements\n");
+
+for(i=0;i<n;i++)
+{
+    scanf("%d",&a[i]);
+}
+for(i=0;i<n;i++)
+{
+
+    p=&a[i];
+    printf("%d ",*p);
+}
+    return 0;
+
+}

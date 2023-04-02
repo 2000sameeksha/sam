@@ -1,0 +1,10 @@
+# include<stdio.h>
+int main()
+{
+   float num1=3.14;
+   int num2;
+   num2=(int)(num1+0.5);
+   printf("Integer number is %d\n",num2);
+   return 0;
+
+}
