@@ -1,0 +1,199 @@
+#include<stdio.h>
+int main()
+{
+    char str1[10],str2[10];
+    int i=0,j=0,l,c=0,flag=0,l2;
+    printf("enter string for str1:");
+    scanf("%s",str1);
+    printf("enter string for str2:");
+    scanf("%s",str2);
+    l=strlen(str1);
+    l2=strlen(str2);
+    for(i=0;i<l;i++)
+    {
+        if(str1[i]==str2[j])
+        {
+            while(1)
+            {
+                if(c==l2){
+                    flag=1;
+                    c=0;
+                break;
+            }
+            if(str1[i+c]==str2[j+c])
+            {
+                c++;
+            }
+            else{
+                c=0;
+                break;
+            }
+
+        }
+    }
+    }
+
+        if(flag==0){
+            printf("substring not found");
+        }
+            else{
+            printf("substring found");
+            }
+
+    return 0;
+}
+
+#include<stdio.h>
+int main()
+{
+    int array[10];
+    int i,max,min,size;
+    printf("enter array size:");
+    scanf("%d",&size);
+    printf("enter array elements:\n");
+    for(i=0;i<size;i++)
+    {
+        scanf("%d",&array[i]);
+    }
+    min=max=array[0];
+    for(i=1;i<size;i++)
+    {
+        if(array[i]<min)
+            min=array[i];
+        if(array[i]>max)
+        max=array[i];
+    }
+    printf("min=%d\n",min);
+    printf("max=%d",max);
+    return 0;
+}
+
+
+#include<stdio.h>
+int main()
+{
+    int array[10];
+    int i,max,min,size;
+    printf("enter array size:");
+    scanf("%d",&size);
+    printf("enter array elements:\n");
+    for(i=0;i<size;i++)
+    {
+        scanf("%d",&array[i]);
+    }
+    min=max=array[0];
+    for(i=1;i<size;i++)
+    {
+        if(array[i]<min)
+            min=array[i];
+        if(array[i]>max)
+        max=array[i];
+    }
+    printf("min=%d\n",min);
+    printf("max=%d",max);
+    return 0;
+}
+
+
+#include<stdio.h>
+int main()
+{
+   int units,charge;
+   printf("enter total units:");
+   scanf("%d",&units);
+
+   
+       if(units>0&&units<=219)
+       {
+           charge=units*1.10;
+       }
+       if(units>220&&units<=500)
+       {
+           charge=240+(units-219)*1.45;
+       }
+       if(units>500)
+       {
+           charge=240+319+725+(units-499)*1.90;
+       }
+
+  // }
+  // else
+   // printf("numbers greater than  94\n");
+   if(charge>450)
+   {
+       charge=charge*1.12;
+   }
+        printf("%d",charge);
+   return 0;
+}
+
+ #include<stdio.h>
+//#define ARRAY_SIZE sizeof(a)/sizeof(a[0])
+int sumArrayElements(int array[],int n)
+{
+    int sum=0;
+    float avg=0;
+    int i;
+    for(i=0;i<n;i++)
+    {
+        sum=sum+array[i];
+    }
+    avg=sum/n;
+     printf("sum=%d",sum);
+     printf("average=%0.1f",avg);
+}
+void main()
+{
+    int array[10];
+    int n;
+    int i;
+    printf("enter size:");
+    scanf("%d",&n);
+    printf("enter array elements:");
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&array[i]);
+    }
+   sumArrayElements(array,n);
+    //printf("sum=%d",sum);
+}
+
+
+#include<stdio.h>
+int main()
+{
+   int units;
+   float charge;
+   printf("enter total units:");
+   scanf("%d",&units);
+
+
+       if(units>0&&units<=219)
+       {
+           charge=units*1.10;
+       }
+       else if(units>220&&units<=500)
+       {
+           charge=240+(units-219)*1.45;
+       }
+       else if(units>500)
+       {
+           charge=240+406+(units-499)*1.90;
+       }
+
+
+    if(charge<120)
+  {
+      charge=120;
+  }
+   // printf("numbers greater than  94\n");
+   5 if(charge>450)
+   {
+       charge=charge*1.12;
+   }
+        printf("%.2f",charge);
+   return 0;
+}
+
+
+
