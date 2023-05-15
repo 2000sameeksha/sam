@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    int r=0,i;
+    char str[100];
+    printf("Enter the string\n");
+    scanf("%s",str);
+    for(i=0;str[i]!='\0';i++)
+    {
+        r=r*26+str[i]-'A'+1;
+    }
+    printf("%d\n",r);
+    return 0;
+
+}
